@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h4 style="text-align: right;"><u style="color: brown;">Student Registration Form</u></h4>
+    <div style="margin-top: 10px; font-size: 20px; background-color: rgb(229, 236, 236);"> <br>
+        <form action="registration form" style="text-align: left;margin-top: 0px;">
+            <label for="firstname" style="font-size: 20px;">First Name:</label>
+            <input type="text" id="firstname" placeholder="Enter Your firstname" style="margin-left: 50px; height: 30px; width: 900px; ">
+            <br>
+            <div style="margin-top: 5px;">
+                <label for="lastname" style="font-size: 20px;">Last Name:</label>
+            <input type="text" id="lastname" placeholder="Enter Your lastname" style="margin-left: 50px; height: 30px; width: 900px; ">
+            </div>
+            <div style="margin-top: 5px;">
+                <label for="email" style="font-size: 20px;">Email:</label>
+                <input type="emial" id="email" placeholder="enter your email" style="margin-left: 90px; height: 30px; width: 900px;">
+            </div>
+            <div style="margin-top: 5px;">
+                <label for="Mobile" style="font-size: 20px;">Mobile:</label>
+                <input type="tel" id="Mobile" placeholder="Only 10 digits are allowed" style="margin-left: 80px; height: 30px; width: 900px;">
+            </div>
+            <div style="margin-top: 5px; margin-right: 10px;">
+                <label for="gender" style="font-size: 20px; ;">Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" style="margin-left: 80px"></lnput>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female"></input>
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div style="margin-top: 5px;">
+                <label for="date" style="font-size: 20px;">Date of birth:</label>
+                <input type="date" id="date" placeholder="mm/dd//yy" style="height: 30px;margin-left: 30px;width: 900px">
+            </div>
+            <div style="margin-top: 5px;">
+                <label for="address" style="font-size: 20px;">Address:</label>
+                <textarea name="address" id="address" cols="30" rows="20" style="height: 150px;margin-left: 70px; width: 895px"></textarea>
+            </div>
+            <div style="margin-top: 3px;">
+                <label for="city" style="font-size: 20px;">City:</label>
+                <input type="text" id="city" style="height: 30px; width: 900px; margin-left: 100px;">
+            </div>
+            <div style="margin-top: 3px;">
+                <label for="Area Pin" style="font-size: 20px;">Area Pin:</label>
+                <input type="text" id="Area Pin" style="height: 30px; width: 900px; margin-left: 65px;">
+            </div>
+            <div style="margin-top: 3px;">
+                <label for="state" style="font-size: 20px;">State:</label>
+                <input type="text" id="state" style="height: 30px; width: 900px; margin-left: 98px;">
+            </div>
+            <div style="margin-top: 10px;  margin-right: 500px;">
+            <label for="Qualification" style="font-size: 20px;">Qualifiaction:</label>
+            <select name="Qualifiaction" id="Qualifiaction" style="margin-left: 30px;">
+                <option value="select">select qualification:</option>
+                <option value="Matric">Matric</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="graduate">Graduate</option>
+                <option value="postgraduate">Post-graduate</option>
+                <option value="doctoriate">PHD</option>
+            </select>
+        </div><br>
+        <div style="margin-top: 5px; margin-right: 180px;font-size: 20px;">
+            <label for="specialization">Specialization:</label>
+            <input type="checkbox" id="computer" style="margin-left: 25px;">
+            <label for="computer" >Computer Science</label><br>
+            <input type="checkbox" id="it" style="margin-left: 150px;">
+            <label for="it">Information Technology</label><br>
+            <input type="checkbox" id="CA" style="margin-left: 150px;">
+            <label for="CA">Computer Architecture</label><br>
+            <input type="checkbox" id="Tc" style="margin-left: 150px;">
+            <label for="Tc">Tele communication</label><br>
+        </div>
+        <div style="margin-top: 5px; font-size: 20px;">
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="password" style="height: 30px; width: 900px;margin-left: 60px;">
+        </div>
+        <br>
+        <button style="background-color: #47c967;height: 40px;width: auto; border:1px; border-radius: 5px;color: white;">Registered</button>
+        </form>
+        
+    </div>
+</body>
+</html>
